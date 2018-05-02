@@ -1,0 +1,91 @@
+body{
+     display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+   
+   
+}
+.contenedor{
+
+	display:grid;
+	grid-template-rows: 20% 50% 20%;
+	grid-template-columns: 50% 50%;
+	grid-gap: 5px;
+	width: 900px;
+	
+}
+.titulo{
+
+	color:#333;
+
+}
+#combo{
+
+	width: 200px;
+	height: 30px;
+}
+
+
+#formulario{
+	display : flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.item{
+
+	border: 1px solid blue;
+	min-height: 400px;
+	display:flex;
+	justify-content: center;
+	align-items: center;	
+
+}
+.cero{
+	min-height: 100px;
+	grid-column: 1/3;
+}
+.tres{
+	min-height: 100px;
+	grid-column: 1/3;
+}
+input{
+
+	display:block;
+	margin-top: 5px;
+	width: 200px;
+}
+
+img{
+
+	max-width: 250;
+	max-height: 250px;
+}
+.rojo{
+
+	color:red;
+	font-weight: bold;
+}
+#btn-calcular{
+	width: 200px;
+	height: 30px;
+	color: blue;
+	margin-top:10px;
+}
+
+label{
+
+	 color:#444;
+	 font-weight: bold;
+}
+.enfasis{
+
+	color:blue;
+	font-weight: bold;
+	font-size: 20px;
+}
+#result{
+
+	font-size: 20px;
+}
